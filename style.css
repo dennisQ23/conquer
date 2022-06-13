@@ -121,6 +121,7 @@ h6,
 .feature-area {
   padding-top: 30px;
   height: 100%;
+  margin-bottom: 70px;
 }
 .feature-container {
   width: 1170px;
@@ -206,4 +207,59 @@ h6,
   padding: 10px 30px;
   border: none;
   border-radius: 5px;
+}
+
+/* blog section */
+.blog-area {
+  height: 615px;
+  margin: 90px 0;
+}
+
+.blog-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.blog-row {
+  display: flex;
+}
+
+.col {
+  width: 585px;
+  height: 593px;
+  padding: 0 15px;
+}
+
+.col img {
+  width: 555px;
+  height: 240px;
+}
+
+.blog-content h2 {
+  color: #666666;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.blog-content p {
+  padding: 27px;
+  text-align: left;
+  color: #333333;
+  font-size: 14px;
+}
+
+.blog-content span {
+  margin-left: 350px;
+}
+
+.blog-content span a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #666666;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
