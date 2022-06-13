@@ -78,7 +78,7 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
   padding: 235px 0;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   background-attachment: fixed;
   background-size: 100% 100%;
 }
@@ -115,4 +115,95 @@ h6,
   color: #fff;
   font-size: 25px;
   text-shadow: 1px 1px #333;
+}
+
+/* feature section */
+.feature-area {
+  padding-top: 30px;
+  height: 100%;
+}
+.feature-container {
+  width: 1170px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.feature-container .row {
+  display: flex;
+  gap: 46px;
+  text-align: center;
+}
+
+.left-col,
+.mid-col,
+.right-col {
+  width: 360px;
+}
+
+.feature-content {
+  background: #f2f2f2;
+  padding: 40px 0;
+}
+
+.feature-content img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+.feature-content-title {
+  margin: 20px 0 10px;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.feature-content-description {
+  width: 360px;
+  height: 170px;
+  margin: 15px 0 0;
+  padding: 0 20px 35px;
+  text-align: left;
+}
+
+.feature-content-link {
+  text-decoration: none;
+}
+
+.feature-content .green-text {
+  color: green;
+}
+
+.feature-content .green-btn {
+  background-color: green;
+  color: #fff;
+}
+
+.feature-content .blue-text {
+  color: blue;
+}
+
+.feature-content .blue-btn {
+  background-color: blue;
+  color: #fff;
+}
+
+.feature-content .red-text {
+  color: red;
+}
+
+.feature-content .red-btn {
+  background-color: red;
+  color: #fff;
+}
+
+.green-btn,
+.blue-btn,
+.red-btn {
+  width: 173.75px;
+  height: 44px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
 }
