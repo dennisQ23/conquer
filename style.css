@@ -311,14 +311,14 @@ h6,
   height: 580px;
 }
 
-.testimonial-row {
+.testimonial-row-1 {
   display: flex;
   height: 580px;
   width: 100%;
   text-align: center;
 }
 
-.testimonial-col {
+.testimonial-col-1 {
   width: 292.5px;
   height: 530px;
 }
@@ -366,4 +366,27 @@ h6,
   text-transform: capitalize;
   border: rgb(58, 53, 53) 1px solid;
   border-radius: 10px;
+}
+
+.testimonial-row-2 {
+  height: 786px;
+  width: 100%;
+}
+
+.testimonial-box-description {
+  width: 1140px;
+  height: 352px;
+  padding: 30px;
+}
+
+.testimonial-box-description h2 {
+  margin-bottom: 10px;
+}
+
+.testimonial-box-description p {
+  margin-bottom: 10px;
+}
+
+.testimonial-box-description p:last-of-type {
+  margin-bottom: 30px;
 }
