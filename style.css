@@ -390,3 +390,94 @@ h6,
 .testimonial-box-description p:last-of-type {
   margin-bottom: 30px;
 }
+
+/* contact section */
+.contact-area {
+  background-image: url(/image/bg-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 582px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.contact-container {
+  width: 750px;
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contact-row {
+  width: 750px;
+}
+
+.contact-content h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px #333;
+}
+
+.contact-content p {
+  background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 20px 15px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.contact-col-2 .form-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form-left .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-left .form-group input {
+  width: 345px;
+  height: 34px;
+  background-color: #f2f2f266;
+  margin: 0px 0px 15px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form-right .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-right .form-group textarea {
+  width: 345px;
+  height: 132px;
+  background-color: #f2f2f266;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form-right .form-group button {
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 104px;
+  height: 48px;
+  border: none;
+}
