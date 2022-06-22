@@ -481,3 +481,24 @@ h6,
   height: 48px;
   border: none;
 }
+
+/* footer section */
+footer {
+  background-color: rgb(22, 19, 19);
+}
+
+.footer-container {
+  width: 1170px;
+  height: 60px;
+
+  margin: 0 auto;
+}
+
+.footer-col .copy {
+  width: 1140px;
+  height: 20px;
+  color: rgb(204, 189, 189);
+  font-size: 12px;
+  padding: 20px;
+  text-align: center;
+}
